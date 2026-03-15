@@ -1,0 +1,49 @@
+/* HEADER */
+
+.content-header{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  background:var(--card-bg);
+  margin-bottom:20px;
+  padding:20px;
+}
+
+
+.content-title{
+  font-size:26px;
+  font-weight:700;
+  color:var(--text-main);
+}
+
+
+/* FILTER BAR */
+
+.content-filters{
+
+  display:flex;
+  gap:12px;
+  align-items:center;
+
+  background:var(--card-bg);
+  padding:16px;
+
+  border:1px solid var(--border);
+  border-radius:8px;
+
+  margin-bottom:20px;
+}
+
+
+/* BODY */
+
+.content-body{
+
+  background:var(--card-bg);
+
+  padding:20px;
+
+  border-radius:10px;
+
+  border:1px solid var(--border);
+}
